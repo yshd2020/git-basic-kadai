@@ -1,0 +1,44 @@
+PS C:\Users\shchr> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\shchr
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2026/02/18     22:54                git_challenge 
+
+
+PS C:\Users\shchr> cd git_challenge
+PS C:\Users\shchr\git_challenge> git init
+Initialized empty Git repository in C:/Users/shchr/git_challe
+
+
+PS C:\Users\shchr> cd git_challenge
+PS C:\Users\shchr\git_challenge> git init
+Initialized empty Git repository in C:/Users/shchr/git_challenge/.git/
+PS C:\Users\shchr\git_challenge> echo "Hello,world!" >>hello_world.txt
+PS C:\Users\shchr\git_challenge> git add hello_world.txt        C:\Users\shchr\git_challenge> echo "こんにちは、世界!" >nge/.git/
+PS C:\Users\shchr\git_challenge> echo "Hello,world!" >>hello_world.txt
+PS C:\Users\shchr\git_challenge> git add hello_world.txt     1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\shchr\git_challenge> git commit -m "hello_worlnge/.git/
+PS C:\Users\shchr\git_challenge> echo "Hello,world!" >>hello_world.txt
+PS C:\Users\shchr\git_challenge> git add hello_world.txt     C:\Users\shchr\git_challenge> echo "こんにちは、世界!" 
+PS C:\Users\shchr\git_challenge> git commit -m "hello_wornge/.git/
+PS C:\Users\shchr\git_challenge> echo "Hello,world!" >>hello_world.txt
+PS C:\Users\shchr\git_challenge> git add hello_world.txt  S C:\Users\shchr\git_challenge> echo "こんにちは、世界!"
+PS C:\Users\shchr\git_challenge> git commit -m "hello_wornge/.git/
+PS C:\Users\shchr\git_challenge> echo "Hello,world!" >>hello_world.txt
+PS C:\Users\shchr\git_challenge> git add hello_world.txt 
+PS C:\Users\shchr\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) 61313c6] hello_world.txtを追加       
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\shchr\git_challenge> echo "こんにちは、世界!" >>hello_world.txt
+PS C:\Users\shchr\git_challenge> git add hello_world.txt 
+PS C:\Users\shchr\git_challenge> git commit -m "日本語訳 を追加"
+[main a5ac51f] 日本語訳を追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\shchr\git_challenge> git log --oneline       
+a5ac51f (HEAD -> main) 日本語訳を追加
+61313c6 hello_world.txtを追加
